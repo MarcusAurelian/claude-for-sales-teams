@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Claude for Sales Teams — Skills Are Just Fancy Prompts. Here's the Actual System.</title>
-  <meta name="description" content="Everyone's going crazy about Claude Code skills. Nobody shows how to implement it across an entire sales team. Here's the practical architecture for sales leaders." />
+  <title>Claude for Sales Teams — The Complete Deployment System</title>
+  <meta name="description" content="The complete architecture for running Claude across your entire sales team. Shared brain, team skills, automated workflows. Built once, gets smarter every week. No developers required." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -377,20 +377,19 @@
     <a href="#architecture">The System</a>
     <a href="#loop">The Loop</a>
     <a href="#setup">Get Started</a>
-    <a href="#cta" style="color:var(--brand); font-weight:600;">Build This For Me</a>
+    <a href="#cta" style="color:var(--brand); font-weight:600;">Build It For Me →</a>
   </div>
 </nav>
 
 <!-- ── Hero ─────────────────────────────────────────────────────────── -->
 <section id="hero">
   <div class="container">
-    <div class="label">GTM Engineering × Claude Code</div>
-    <h1>Everyone's going crazy about Claude Code skills.<br><em>Nobody shows how to actually implement it across your entire sales team.</em></h1>
+    <div class="label">Free Playbook · For Sales Leaders & Founders</div>
+    <h1>The GTM Leader's Guide to Running<br>Your Team on <em>Claude Code</em></h1>
     <p class="hero-sub">
-      Your feed is full of it. Claude skills, Claude agents, Claude workflows. Everyone's building something.
-      And you're sitting there thinking: that's great, but what does any of this actually mean for my sales team?
-      Where do I even start? This is the guide that answers that — a practical system for deploying Claude
-      across an entire sales team, built for sales leaders, not developers.
+      The exact setup — team architecture, shared skills, automated workflows — where every session,
+      every rep, and every new hire starts from the same intelligence.
+      Built once. Improves forever.
     </p>
     <div class="hero-actions">
       <a href="#architecture" class="btn">See the Architecture ↓</a>
@@ -403,9 +402,9 @@
 <section id="problem">
   <div class="container">
     <span class="section-label">The Problem</span>
-    <h2>Skills are the new prompts.<br>The problem is the same.</h2>
-    <p>A year ago everyone shared prompts. Today everyone shares Claude Code skills and projects. The packaging got better — but the underlying problem didn't change. A skill someone built for their workflow, with their context, for their customers, tells Claude nothing about yours. Install it, and you still start from scratch.</p>
-    <p>The real gap isn't a better skill. It's the layer underneath: the shared intelligence that makes every skill, every session, and every team member start from the same foundation — and get sharper over time.</p>
+    <h2>Your reps are using AI.<br>Your team isn't.</h2>
+    <p>Individual AI use is table stakes at this point. The issue is that it's not transferable. A skill built for someone else's workflow — with their customers, their methodology, their context — tells Claude nothing about yours. Install it and you're still starting from zero. Every session. Every rep. Every new hire.</p>
+    <p>The gap isn't a better skill. It's the layer underneath: a shared foundation where your ICP, your methodology, your objection playbook, and your competitive intel are baked in once — and every skill, every session, and every team member automatically starts from the same intelligence.</p>
 
     <div class="two-col">
       <div class="card bad">
@@ -950,33 +949,32 @@
 
 <!-- ── CTA ────────────────────────────────────────────────────────────── -->
 <section id="cta" style="background:var(--bg-soft);">
-  <div class="container" style="max-width:660px;">
+  <div class="container" style="max-width:700px;">
     <div style="text-align:center; margin-bottom:48px;">
-      <span class="section-label">Want this built for you?</span>
-      <h2 style="margin-bottom:20px;">This is what we run internally.<br>It's also what we build for clients.</h2>
-      <p style="font-size:1.05rem; max-width:540px; margin:0 auto 16px; color:var(--mid);">We build inbound and outbound GTM systems for B2B SaaS companies between $1M and $5M ARR — done-for-you, start to finish. Book a call and find out if it's a fit.</p>
+      <span class="section-label">Don't want to build it yourself?</span>
+      <h2 style="margin-bottom:16px;">We'll build the whole system<br>for your team.</h2>
+      <p style="font-size:1.05rem; max-width:520px; margin:0 auto 12px;">Everything on this page is running in production at <strong>Enablement-CH</strong>. We build it done-for-you: the shared brain, the skills, the workflows, and the outbound infrastructure that feeds it. You own it when we're done — we just make sure it actually gets built, and built right.</p>
+      <p style="color:var(--soft); font-size:.9rem; max-width:480px; margin:0 auto;">3–6 month engagement. We handle the setup, the execution, and the knowledge transfer. You keep the system.</p>
     </div>
 
     <style>
-      .cta-pills {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
+      .cta-features {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 12px;
         margin-bottom: 48px;
       }
-      .cta-pill {
+      .cta-feature {
         background: var(--bg);
         border: 1px solid var(--rule);
-        border-radius: 100px;
-        padding: 8px 16px;
-        font-size: .83rem;
-        font-weight: 600;
-        color: var(--mid);
-        display: flex; align-items: center; gap: 6px;
+        border-radius: var(--radius);
+        padding: 16px 18px;
+        display: flex; gap: 10px; align-items: flex-start;
         box-shadow: var(--shadow);
       }
-      .cta-pill span { color: var(--brand); }
+      .cta-feature-icon { font-size: 1.2rem; flex-shrink: 0; margin-top: 1px; }
+      .cta-feature-text { font-size: .85rem; color: var(--mid); line-height: 1.5; }
+      .cta-feature-text strong { color: var(--dark); display: block; margin-bottom: 2px; }
 
       .meeting-embed-wrapper {
         border: 1px solid var(--rule);
@@ -987,30 +985,45 @@
       }
       .meeting-embed-header {
         background: var(--brand);
-        padding: 20px 24px;
+        padding: 18px 24px;
+        display: flex; align-items: center; gap: 12px;
       }
       .meeting-embed-header h3 {
         font-family: "Sofia Sans", sans-serif;
-        color: #fff; margin: 0 0 4px; font-size: 1.1rem;
+        color: #fff; margin: 0; font-size: 1.05rem;
       }
       .meeting-embed-header p {
-        color: rgba(255,255,255,.75); font-size: .85rem; margin: 0;
+        color: rgba(255,255,255,.75); font-size: .83rem; margin: 0;
       }
       .meeting-embed-body { padding: 0; }
       .meetings-iframe-container { min-height: 640px; }
     </style>
 
-    <div class="cta-pills">
-      <div class="cta-pill"><span>✦</span> B2B SaaS · $1M–$5M ARR</div>
-      <div class="cta-pill"><span>✦</span> Outbound + inbound</div>
-      <div class="cta-pill"><span>✦</span> Done-for-you</div>
-      <div class="cta-pill"><span>✦</span> You own it when we're done</div>
+    <div class="cta-features">
+      <div class="cta-feature">
+        <div class="cta-feature-icon">🧠</div>
+        <div class="cta-feature-text"><strong>Shared brain setup</strong>ICP, methodology, skills — built from your real calls</div>
+      </div>
+      <div class="cta-feature">
+        <div class="cta-feature-icon">⚙️</div>
+        <div class="cta-feature-text"><strong>Full infrastructure</strong>Clay, Apollo, HubSpot, sequences — all connected</div>
+      </div>
+      <div class="cta-feature">
+        <div class="cta-feature-icon">🔄</div>
+        <div class="cta-feature-text"><strong>Automated workflows</strong>Call review, ICP updates, LinkedIn ghostwriter</div>
+      </div>
+      <div class="cta-feature">
+        <div class="cta-feature-icon">🎓</div>
+        <div class="cta-feature-text"><strong>Knowledge transfer</strong>You own it and can run it after we're done</div>
+      </div>
     </div>
 
     <div class="meeting-embed-wrapper">
       <div class="meeting-embed-header">
-        <h3>Book a call — see if it's a fit</h3>
-        <p>30 minutes. No pitch deck. We look at your current situation and tell you honestly whether we can help.</p>
+        <div>
+          <h3>Book a 30-minute call with Lanny</h3>
+          <p>We'll look at your current setup and map out what makes sense for your team.</p>
+        </div>
       </div>
       <div class="meeting-embed-body">
         <!-- Start of Meetings Embed Script -->
@@ -1026,7 +1039,7 @@
 <footer>
   <div class="container">
     <p><strong>Claude for Sales Teams</strong> — A GTM Engineering Framework</p>
-    <p class="mt-8">Built by <a href="https://www.linkedin.com/in/lannyheiz/" target="_blank">Lanny Heiz</a> · Enablement · Not affiliated with Anthropic</p>
+    <p class="mt-8">Built by <a href="https://www.linkedin.com/in/lannyheiz/" target="_blank">Lanny Heiz</a> · Enablement-CH · Not affiliated with Anthropic</p>
   </div>
 </footer>
 
