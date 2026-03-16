@@ -958,23 +958,25 @@
     </div>
 
     <style>
-      .cta-features {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 12px;
+      .cta-pills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
         margin-bottom: 48px;
       }
-      .cta-feature {
+      .cta-pill {
         background: var(--bg);
         border: 1px solid var(--rule);
-        border-radius: var(--radius);
-        padding: 16px 18px;
-        display: flex; gap: 10px; align-items: flex-start;
+        border-radius: 100px;
+        padding: 8px 16px;
+        font-size: .83rem;
+        font-weight: 600;
+        color: var(--mid);
+        display: flex; align-items: center; gap: 6px;
         box-shadow: var(--shadow);
       }
-      .cta-feature-icon { font-size: 1.2rem; flex-shrink: 0; margin-top: 1px; }
-      .cta-feature-text { font-size: .85rem; color: var(--mid); line-height: 1.5; }
-      .cta-feature-text strong { color: var(--dark); display: block; margin-bottom: 2px; }
+      .cta-pill span { color: var(--brand); }
 
       .meeting-embed-wrapper {
         border: 1px solid var(--rule);
@@ -985,45 +987,30 @@
       }
       .meeting-embed-header {
         background: var(--brand);
-        padding: 18px 24px;
-        display: flex; align-items: center; gap: 12px;
+        padding: 20px 24px;
       }
       .meeting-embed-header h3 {
         font-family: "Sofia Sans", sans-serif;
-        color: #fff; margin: 0; font-size: 1.05rem;
+        color: #fff; margin: 0 0 4px; font-size: 1.1rem;
       }
       .meeting-embed-header p {
-        color: rgba(255,255,255,.75); font-size: .83rem; margin: 0;
+        color: rgba(255,255,255,.75); font-size: .85rem; margin: 0;
       }
       .meeting-embed-body { padding: 0; }
       .meetings-iframe-container { min-height: 640px; }
     </style>
 
-    <div class="cta-features">
-      <div class="cta-feature">
-        <div class="cta-feature-icon">🧠</div>
-        <div class="cta-feature-text"><strong>Shared brain setup</strong>ICP, methodology, skills — built from your real calls</div>
-      </div>
-      <div class="cta-feature">
-        <div class="cta-feature-icon">⚙️</div>
-        <div class="cta-feature-text"><strong>Full infrastructure</strong>Clay, Apollo, HubSpot, sequences — all connected</div>
-      </div>
-      <div class="cta-feature">
-        <div class="cta-feature-icon">🔄</div>
-        <div class="cta-feature-text"><strong>Automated workflows</strong>Call review, ICP updates, LinkedIn ghostwriter</div>
-      </div>
-      <div class="cta-feature">
-        <div class="cta-feature-icon">🎓</div>
-        <div class="cta-feature-text"><strong>Knowledge transfer</strong>You own it and can run it after we're done</div>
-      </div>
+    <div class="cta-pills">
+      <div class="cta-pill"><span>✦</span> B2B SaaS · $1M–$5M ARR</div>
+      <div class="cta-pill"><span>✦</span> Outbound + inbound</div>
+      <div class="cta-pill"><span>✦</span> Done-for-you</div>
+      <div class="cta-pill"><span>✦</span> You own it when we're done</div>
     </div>
 
     <div class="meeting-embed-wrapper">
       <div class="meeting-embed-header">
-        <div>
-          <h3>Book a 30-minute call with Lanny</h3>
-          <p>We'll look at your current setup and map out what makes sense for your team.</p>
-        </div>
+        <h3>Book a call — see if it's a fit</h3>
+        <p>30 minutes. No pitch deck. We look at your current situation and tell you honestly whether we can help.</p>
       </div>
       <div class="meeting-embed-body">
         <!-- Start of Meetings Embed Script -->
